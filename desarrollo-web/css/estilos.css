@@ -9,8 +9,8 @@ header{
 }
 /* selector de etiqueta header - section - article - nav */
   /* header {
-    background: pink;
-    color: red;
+     background: pink;
+     color: red;
   } */
 
 /* selector descendente */
@@ -22,3 +22,84 @@ header{
 
 /* selector de id # */
 /* #portafolio */
+
+
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* background  gris = #1b2127 */
+/* celeste = #026fff */
+
+
+body{
+  font-family: 'Source Sans Pro' sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1,5;
+  letter-spacing: -.2px;
+  color:white;
+  /* text-transform: uppercase; */
+  /* text-decoration: underline; */
+}
+h1 strong{
+  color: #026fff;
+}
+
+.hero{
+  height: 300px;
+  background-image: url('../images/hero.jpg');
+  background-color: #1d252c;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+}
+
+.project{
+  /* border-: tamaño tipo estilo */
+  /* border-top: 10px solid red;
+  border-right: 10px solid green;
+  border-bottom: 10px solid red;
+  border-left: 10px solid green; */
+  /* color: blue; */
+  /* border-top-color: red;
+  border-top-width: 15px;
+  border-style: solid; */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* border-top-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+} 
+
+.project-details{
+  width: 500px;
+}
+
+.project-imageContiner {
+  width: 500px,
+}
+
+
+.header{
+  background: #1b2127;
+  color: white;
+}
+
+.header a{
+  color: white;
+text-decoration: none;
+}
